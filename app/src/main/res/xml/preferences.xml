@@ -86,6 +86,17 @@
         android:title="@string/settings_misc"
         app:iconSpaceReserved="false">
 
+        <Preference
+            android:key="prefKey_root_status"
+            android:title="@string/settings_root_access"
+            android:summary="@string/settings_root_access_summary"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="prefKey_permission_status"
+            android:title="@string/settings_permission_status"
+            app:iconSpaceReserved="false" />
+
         <SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="ignore_threaddeath"
